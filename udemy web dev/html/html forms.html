@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+
+	<form>
+	<p>
+		<label for="fname">First Name:</label>
+		<input id="fname" name="fname" type="text" placeholder="John" required>
+		<label for="lname">Last Name:</label>
+		<input id="lname" name="lname" type="text" placeholder="Smith" required>
+	</p>
+	
+	<p>
+		<label for="male">Male: </label>
+		<input name="gender" id="male" type="radio" value="Male">
+
+		<label for="female">Female:</label>
+		<input name="gender" id="female" type="radio" value="Female">
+		
+		<label for="other">Other:</label>
+		<input name="gender" id="other" type="radio" value="Other">
+
+	</p>
+
+	<p>
+		<label for="user-email">Email:</label>
+		<input id="user-email" name="username" type="email" placeholder="your email" required>
+		<label>Password:</label>
+		<input id="password" name="password" type="password" pattern=".{6,}" title="Six or more characters" placeholder="your password" required>	
+	</p>
+
+	<p>Birthday:
+		<select name="Month">
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+		</select>	
+		<select name="Day">
+			<option value="1">01</option>
+			<option value="2">02</option>
+			<option value="3">03</option>
+		</select>	
+		<select name="Year">
+			<option value="2014">2014</option>
+			<option value="2015">2015</option>
+			<option value="2016">2016</option>
+		</select>	
+
+	</p>
+
+	<p>
+		<label for="cbox">I agree to the terms and conditions </label>
+		<input type="checkbox" id="cbox" name="termsAgree"> 
+	</p>
+	
+	<input type="submit">
+</form>
+
+</body>
+</html>

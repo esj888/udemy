@@ -1,0 +1,26 @@
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+table
+{ 
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+	width: 100px;
+	height: 100px;	
+	text-align: center;
+}
+
+.v {
+	border-left: 2px solid blue;
+	border-right: 2px solid blue;
+}	
+
+.h {
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+}
